@@ -22,7 +22,7 @@ admins = {admin["username"]: admin["password"] for admin in Users.get("Admins", 
 async def main():
     global chat_msgs
 
-    put_markdown('📚 Добро пожаловать в чат, созданный группой ИСП9-kh11!!!')
+    put_markdown('Добро пожаловать')
 
     load_messages()
     load_user()
